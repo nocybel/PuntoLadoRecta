@@ -49,25 +49,23 @@ public class Main {
 
 
         //Pruebas de intersecciones:
-        //System.out.println("La interseccion entre recta1 y recta1 sucede en: " + recta1.interseccion(recta1));
         System.out.println("La interseccion entre recta1 y recta2 sucede en: " + recta1.interseccion(recta2));
         System.out.println("La interseccion entre recta1 y recta3 sucede en: " + recta1.interseccion(recta3));
 
         System.out.println("La interseccion entre recta2 y recta1 sucede en: " + recta2.interseccion(recta1));
-        //System.out.println("La interseccion entre recta2 y recta2 sucede en: " + recta2.interseccion(recta2));
         System.out.println("La interseccion entre recta2 y recta3 sucede en: " + recta2.interseccion(recta3));
 
         System.out.println("La interseccion entre recta3 y recta1 sucede en: " + recta3.interseccion(recta1));
         System.out.println("La interseccion entre recta3 y recta2 sucede en: " + recta3.interseccion(recta2));
-        //System.out.println("La interseccion entre recta3 y recta3 sucede en: " + recta3.interseccion(recta3));
 
         System.out.println("Lado 1 y lado 2 intersectan? " + lado1.seIntersecan(lado2));
         System.out.println("Lado 1 y lado 3 intersectan? " + lado1.seIntersecan(lado3));
 
-        System.out.println("Lado 2 y lado 1 intersectan? " + lado2.seIntersecan(lado1)); //deberia ser false, da 1. L2 ((11 0),(4 -8)). L1 ((0 0),(-7 5)). Intersectan en: 6.769 -4.83
+        System.out.println("Lado 2 y lado 1 intersectan? " + lado2.seIntersecan(lado1));
         System.out.println("Lado 2 y lado 3 intersectan? " + lado2.seIntersecan(lado3));
 
         System.out.println("Lado 3 y lado 1 intersectan? " + lado3.seIntersecan(lado1));
         System.out.println("Lado 3 y lado 2 intersectan? " + lado3.seIntersecan(lado2));
     }
+
 }
